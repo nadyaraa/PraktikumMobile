@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TipApp_XML</string>>
+    <string name="title">Calculate Tip</string>
+    <string name="labelBill">Bill Amount</string>
+    <string name="labelDropdown">Tip Percentage</string>
+    <string name="labelRoundup">Round Up Tip?</string>
+    <string name="formatTip">Tip Amount: $%1$.2f</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="contDescIconBill">Icon Bill</string>
+    <string name="contDescIconPercent">Icon Persen</string>
+</resources>
