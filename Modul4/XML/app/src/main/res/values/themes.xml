@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.BooksShX" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="RoundedImagedView">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="Button" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:layout_height">36dp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:insetBottom">0dp</item>
+
+    </style>
+
+    <style name="Theme.BooksShX" parent="Base.Theme.BooksShX" />
+</resources>

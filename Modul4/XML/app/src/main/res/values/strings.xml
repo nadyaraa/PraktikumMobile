@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BookShop_xml</string>
+    <string name="beli">Beli</string>
+    <string name="detail">Detail</string>
+    <string name="semua_buku">Semua Buku</string>
+    <string name="deskripsi_buku">Deskripsi Buku</string>
+    <string name="diterbitkan_pada">Diterbitkan pada: %1$d</string>
+    <string name="penulis">Penulis: %1$s</string>
+    <string name="penerbit">Penerbit: %1$s</string>
+</resources>

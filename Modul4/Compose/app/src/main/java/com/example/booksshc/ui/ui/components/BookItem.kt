@@ -1,4 +1,4 @@
-package com.example.bookshop
+package com.example.booksshc.ui.ui.components
 
 import android.content.Intent
 import androidx.compose.foundation.Image
@@ -28,8 +28,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.bookshop.data.Books
+import com.example.booksshc.data.Books
 import androidx.core.net.toUri
+import timber.log.Timber
 
 @Composable
 fun BookItem(book: Books, onDetailClick: (Int) -> Unit) {
@@ -123,6 +124,7 @@ fun BookItem(book: Books, onDetailClick: (Int) -> Unit) {
                     ) {
                         Button(
                             onClick = {
+                                Timber.d("Tombol detail diklik untuk ID buku ${book.id}")
                                 onDetailClick(book.id) },
                             shape = RoundedCornerShape(20.dp)
                         ) {
@@ -134,7 +136,9 @@ fun BookItem(book: Books, onDetailClick: (Int) -> Unit) {
                         Spacer(modifier = Modifier.width(4.dp))
 
                         Button(
-                            onClick = { context.startActivity(Intent(Intent.ACTION_VIEW,
+                            onClick = {
+                                Timber.d("Tombol beli diklik untuk URL ${book.olshopUrl}")
+                                context.startActivity(Intent(Intent.ACTION_VIEW,
                                 book.olshopUrl.toUri())) },
                             shape = RoundedCornerShape(20.dp)
                         ) {
