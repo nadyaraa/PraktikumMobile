@@ -1,4 +1,4 @@
-package com.example.booksshc.ui.ui.screens
+package com.example.booksshc.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -17,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.booksshc.ui.ui.components.BookItem
+import com.example.booksshc.ui.components.BookItem
 import com.example.booksshc.viewmodel.BookView
 
 @Composable

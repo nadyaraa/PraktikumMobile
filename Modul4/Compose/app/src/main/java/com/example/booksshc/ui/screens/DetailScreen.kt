@@ -1,4 +1,4 @@
-package com.example.booksshc.ui.ui.screens
+package com.example.booksshc.ui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -19,10 +19,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.booksshc.data.Books
+import com.example.booksshc.data.Book
 
 @Composable
-fun DetailScreen(book: Books?) {
+fun DetailScreen(book: Book?) {
     if (book == null) return
     Column(modifier = Modifier.fillMaxSize()
         .verticalScroll(rememberScrollState())

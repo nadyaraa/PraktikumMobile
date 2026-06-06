@@ -2,7 +2,7 @@ package com.example.booksshc.data
 
 import com.example.booksshc.R
 
-data class Books(
+data class Book(
     val id: Int,
     val title: String,
     val writer: String,
@@ -15,7 +15,7 @@ data class Books(
 
 object BooksData {
     val BookList = listOf(
-        Books(
+        Book(
             id = 1,
             title = "Madilog",
             writer = "Tan Malaka",
@@ -26,7 +26,7 @@ object BooksData {
             imageId = R.drawable.mdlg,
             olshopUrl = "https://tk.tokopedia.com/ZS9MaHeCw/"
         ),
-        Books(
+        Book(
             id = 2,
             title = "Bumi Manusia",
             writer = "Pramoedya Ananta Toer",
@@ -37,7 +37,7 @@ object BooksData {
             imageId = R.drawable.buman,
             olshopUrl = "https://tk.tokopedia.com/ZS9MmT2r9/"
         ),
-        Books(
+        Book(
             id = 3,
             title = "Cantik Itu Luka",
             writer = "Eka Kurniawan",
@@ -48,7 +48,7 @@ object BooksData {
             imageId = R.drawable.ciluk,
             olshopUrl = "https://tk.tokopedia.com/ZS9MuJFbm/"
         ),
-        Books(
+        Book(
             id = 4,
             title = "Dari Penjara Ke Penjara",
             writer = "Tan Malaka",
@@ -59,7 +59,7 @@ object BooksData {
             imageId = R.drawable.penjara,
             olshopUrl = "https://tk.tokopedia.com/ZS9MuxH3Q/"
         ),
-        Books(
+        Book(
             id = 5,
             title = "Hujan Bulan Juni",
             writer = "Sapardi Djoko Damono",

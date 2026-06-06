@@ -20,8 +20,8 @@ import androidx.navigation.navArgument
 import androidx.navigation.NavType
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.booksshc.ui.ui.screens.DetailScreen
-import com.example.booksshc.ui.ui.screens.HomeScreen
+import com.example.booksshc.ui.screens.DetailScreen
+import com.example.booksshc.ui.screens.HomeScreen
 import com.example.booksshc.viewmodel.BookVMFactory
 import com.example.booksshc.viewmodel.BookView
 import timber.log.Timber

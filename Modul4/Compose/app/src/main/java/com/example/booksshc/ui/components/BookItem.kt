@@ -1,4 +1,4 @@
-package com.example.booksshc.ui.ui.components
+package com.example.booksshc.ui.components
 
 import android.content.Intent
 import androidx.compose.foundation.Image
@@ -28,12 +28,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.booksshc.data.Books
 import androidx.core.net.toUri
+import com.example.booksshc.data.Book
 import timber.log.Timber
 
 @Composable
-fun BookItem(book: Books, onDetailClick: (Int) -> Unit) {
+fun BookItem(book: Book, onDetailClick: (Int) -> Unit) {
     val context = LocalContext.current
 
     Card(
